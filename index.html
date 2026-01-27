@@ -8,14 +8,117 @@
   </head>
   <body class="parent">
     <header class="header">
-        <h1>CSS Grid Learning</h1>
-        <div>
-           <a href="">Home</a>
-           <a href="">Gallery</a> 
-        </div>
+      <h1>CSS Grid Learning</h1>
+      <div>
+        <a href="">Home</a>
+        <a href="">Gallery</a>
+      </div>
     </header>
-    <aside class="side"></aside>
-    <section class="section"></section>
+    <aside class="side">
+      <h1>Meue</h1>
+      <div>
+        <a href="">Getting Started</a>
+        <a href="">Grid Basics</a>
+        <a href="">Grid Properties</a>
+        <a href="">Examples</a>
+      </div>
+    </aside>
+    <section class="section">
+      <div class="section-div1">
+        <h1>Contact Form with Pseudo Selectors</h1>
+        <p>
+          This form demonstrates various CSS pseudo selectors: :hover, :active,
+          :focus, and :nth-child.
+        </p>
+      </div>
+      <div class="section-div2">
+        <div class="form-group">
+          <label for="name">Full Name:</label>
+          <input
+            class="input-box"
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required=""
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address:</label>
+          <input
+            class="input-box"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="your.email@example.com"
+            required=""
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number:</label>
+          <input
+            class="input-box"
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="(123) 456-7890"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Subject:</label>
+          <input
+            class="input-box"
+            type="text"
+            id="subject"
+            name="subject"
+            placeholder="What is this about?"
+            required=""
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Type your message here..."
+            required=""
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="priority">Priority Level:</label>
+          <select id="priority" name="priority">
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+            <option value="urgent">Urgent</option>
+          </select>
+        </div>
+
+        <div class="form-group checkbox-group">
+          <label>
+            <input type="checkbox" name="newsletter" /> Subscribe to newsletter
+          </label>
+          <label>
+            <input type="checkbox" name="terms" required="" /> I agree to terms
+            and conditions
+          </label>
+        </div>
+
+        <div class="button-group">
+          <button type="submit" class="btn-submit" disabled="">
+            Submit Form
+          </button>
+          <button type="reset" class="btn-reset">Reset Form</button>
+        </div>
+      </div>
+      <div class="section-div3"></div>
+    </section>
     <footer class="footer"></footer>
   </body>
 </html>
